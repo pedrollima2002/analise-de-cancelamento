@@ -1,26 +1,21 @@
-
-## .gitignore
-
-```gitignore
-# Arquivos Python compilados
+# Python
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
+*.py[cod]
 
-# Ambiente virtual
+# Ambientes e segredos locais
+.venv/
 venv/
-.env/
+.env
+.env.*
 
-# Arquivos do Jupyter
+# Jupyter
 .ipynb_checkpoints/
 
-# Arquivos do sistema
+# Sistema operacional e editores
 .DS_Store
 Thumbs.db
+.vscode/
 
-# Logs
+# Arquivos temporários
 *.log
-
-# Arquivos CSV temporários
 *.tmp
